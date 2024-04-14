@@ -1,0 +1,50 @@
+.container{
+    background-image: url(https://freeillustrations.xyz/wp-content/uploads/2023/02/reshot-1@2x.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.signupForm{
+    background-color: rgba(67, 114, 190, 0.669);
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px gray;
+    text-align: center;
+
+}
+.title{
+    font-weight: bold;
+    color: white;
+    padding: 40px 0px;
+    font-size: 70px;
+}
+.signupForm input{
+    margin: 10px 0px;
+    padding: 10px 10px;
+    width: 60%;
+    border-radius: 10px;
+    border: none;
+    
+}
+.signupBtn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 40px 0px;    
+    font-size: 20px;
+}
+.signupBtn:hover {
+    background-color: green;
+    font-size: 23px;
+}
+
+.signupForm input:hover{
+    background-color: black;
+    color: white;
+}

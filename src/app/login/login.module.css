@@ -1,0 +1,42 @@
+.loginBtn{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin: 40px 0px;    
+    font-size: 20px;
+}
+.loginBtn:hover{
+    background-color: green;
+    font-size: 23px;
+}
+.container{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.loginForm{
+background-color: rgba(67, 114, 190, 0.669);
+height: 50vh;
+width: 50%;
+border-radius: 10px;
+box-shadow: 10px 10px 10px gray;
+}
+.title{
+    font-weight: bold;
+    color: black;
+    padding: 40px 0px;
+    font-size: 70px;
+}
+.loginForm input{
+margin: 10px 0px;
+padding: 10px 10px;
+width: 50%;
+border-radius: 10px;
+border: none;
+}
+
